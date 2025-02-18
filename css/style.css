@@ -1,9 +1,142 @@
-.roboto-<uniquifier> {
-    font-family: "Roboto", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
     font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
+    padding: 0;
+    margin: 0;  
+}
+
+body {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header {
+    
+}
+.text-head {
+    padding-top: 10px;
+    padding-bottom: 9px;
+    background-color: #B36050;
+    color: #F1D3B9;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27.2px;
+    text-align: center;
+}
+.head {
+    padding: 5px 22px 11px 22px;
+    background-color: #F6F4EC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin-top: 6px;
+   
+    
+}
+
+.nav ul:first-child {
+    gap: 28px;
+}
+
+.nav ul li {
+    list-style-type: none;
+    
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #B4604D;
+    line-height: 28.8px;
+}
+.logo {
+    margin-right: 223px;
+}
+
+.header-account {
+    margin-top: 7px;
+
+}
+.span-text {
+    font-size: 14px;
+    color: #B4604D;
+    line-height: 22.4px;
+    margin-right: 20px;
+}
+
+i {
+    margin-right: 5px;
+}
+.fa-solid {
+}
+.fa-bag-shopping {
+}
+
+.span-number {
+    font-size: 15px;
+    color: #B4604D;
+}
+.header-bg {
+    height: 434px;
+    background-image: url(../img/head.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 331px;
+    padding-bottom: 48px;
   
+    
+}
+.btn {
+    display: block;
+    width: 128px;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #B4604D;
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 28.8px;
+    padding: 9px 20px;
+    text-decoration: none;
+    
+}
+
+.header-text {
+    padding-top: 69px;
+    padding-bottom: 69px;
+    height: 304px;
+    background-color: #A9AE8D;
+    color: #F6F4EC;
+}
+.text-p {
+    font-size: 18px;
+    line-height: 28.8px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.text-h1 {
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 64px;
+    margin-bottom: 30px;
+}
+.btn-wh {
+    text-decoration: none;
+    color: #F6F4EC;
+    line-height: 27.2px;
+    font-size: 16px;
+}
+
